@@ -1,0 +1,20 @@
+.txt-1{
+  font-family: "Gilroy", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+}
+.txt-2{
+  font-family: "Gilroy", sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+
+}
+
+
+
+
+
+
+@include familyInter;
+@include textsProp(normal, 400, 10px, 127%, #071828);
+
